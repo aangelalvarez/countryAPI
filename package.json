@@ -1,0 +1,19 @@
+{
+  "name": "countryapi",
+  "version": "1.0.0",
+  "description": "RESTful API that allows you to get info regarding the languages spoken in each one of the countries in the world",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Angel Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
+  }
+}
