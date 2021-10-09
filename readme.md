@@ -31,17 +31,17 @@ Adicionally, you can:
  Make sure that you package.json contains the following value:
  
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon src local/app.js"
  },
  
  If you want to use the version with no database, then replace this: 
  
  "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon src local/app.js"
  },
 
  with this in your package.json:
  
  "scripts": {
-    "start": "nodemon appnoDB.js"
+    "start": "nodemon src local/appnoDB.js"
  },
