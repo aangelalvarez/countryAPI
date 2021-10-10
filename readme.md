@@ -1,5 +1,5 @@
 # Country Languages API
-With this API, you are able to find what languages are spoken in a specific country, as well as in what countries is a specific language spoken. There are two versions of this API, one does not require a database, it works with the countrydata.ts file. The second version, which is the default, requires the use of mongoDB. Instructions on how to use both versions can be found below
+With this API, you are able to find what languages are spoken in a specific country, as well as in what countries is a specific language spoken. There are three versions of this API, one does not require a database, it works with the countrydata.js file. The second version requires the use of mongoDB. Both of those are for local testing and development, they are found in the folder "src local". The third version, which can be found in the "src" folder, is a version that is ready for deployment. It handles asynchronous requests and errors. Instructions on how to use the local versions can be found below.
 
 This is a RESTful API that allows you to implement CRUD operations  
 * ###### Create new entries
