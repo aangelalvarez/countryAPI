@@ -33,7 +33,6 @@ const requestInfo = tryCatchAsync(async(req, res, next) => {
     const currentRequestInfo = new Request({
         method: req.method,
         route: req.path,
-        IP: req.ip,
         date: currDateTime
     });
 

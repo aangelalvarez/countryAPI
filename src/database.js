@@ -58,10 +58,6 @@ const requestSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    IP: {
-        type: String,
-        required: true
-    },
     date: {
         type: String,
         required: true
